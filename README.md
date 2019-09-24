@@ -1,11 +1,12 @@
 ---
 page_type: sample
 languages:
-- 
+- java
 products:
 - azure
-description: "This guide walks you through the process of building, "
-urlFragment: e2e-java-experience-in-app-service-linux-part-2
+description: "This guide walks you through the process of building, configuring, deploying, trouble shooting and scaling 
+Java Web apps in App Service Linux."
+urlFragment: java-app-service-sample
 ---
 
 # End-to-end Java Experience in App Service Linux 
