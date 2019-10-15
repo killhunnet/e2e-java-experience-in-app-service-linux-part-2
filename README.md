@@ -9,7 +9,9 @@ Java Web apps in App Service Linux."
 urlFragment: java-app-service-sample
 ---
 
-# End-to-end Java Experience in App Service Linux 
+# End-to-end Java Experience in App Service Linux (Part 2)
+
+Refer to [part 1](https://github.com/Azure-Samples/e2e-java-experience-in-app-service-linux/tree/master/) for additional details.
 
 This guide walks you through the process of building, 
 configuring, deploying, trouble shooting and scaling 
