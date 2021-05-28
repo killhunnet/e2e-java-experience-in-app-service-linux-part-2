@@ -246,7 +246,7 @@ Ensure that the [Maven Plugin for Azure App Service](https://github.com/Microsof
 ```
 
 > [!NOTE]
-> You can use the command `mvn com.microsoft.azure:azure-webapp-maven-plugin:1.14.0:config` to modify the basic configuration.
+> You can use the command `mvn azure-webapp:config` to modify the basic configuration.
 
 ### Step 5 - Deploy to Java SE in App Service Linux
 
