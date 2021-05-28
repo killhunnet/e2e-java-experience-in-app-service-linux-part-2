@@ -158,7 +158,7 @@ mvn package spring-boot:run
 bash-3.2$ mvn package spring-boot:run
 [INFO] Scanning for projects...
 [INFO]
-[INFO] -------< com.microsoft.springframework.samples:spring-todo-app >--------
+[INFO] -------< com.azure.spring.samples:spring-todo-app >--------
 [INFO] Building spring-todo-app 2.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
@@ -256,7 +256,7 @@ Ensure that the [Maven Plugin for Azure App Service](https://github.com/Microsof
 bash-3.2$ mvn azure-webapp:deploy
 [INFO] Scanning for projects...
 [INFO]
-[INFO] -------< com.microsoft.springframework.samples:spring-todo-app >--------
+[INFO] -------< com.azure.spring.samples:spring-todo-app >--------
 [INFO] Building spring-todo-app 2.0-SNAPSHOT
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO]
