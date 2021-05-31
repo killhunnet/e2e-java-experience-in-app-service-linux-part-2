@@ -331,9 +331,9 @@ bash-3.2$ az webapp log tail --name ${WEBAPP_NAME}  --resource-group ${RESOURCEG
 2021-05-28T01:46:30.477951594Z 2021-05-28 01:46:30.477  INFO 124 --- [p-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2021-05-28T01:46:30.483316162Z 2021-05-28 01:46:30.483  INFO 124 --- [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2021-05-28T01:46:30.485411088Z 2021-05-28 01:46:30.484  INFO 124 --- [p-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2021-05-28T01:47:19.683003828Z 2021-05-28 01:47:19.682  INFO 124 --- [p-nio-80-exec-9] c.a.s.s.controller.TodoListController    : Fri May 28 01:47:19 GMT 2021 GET ======= /api/todolist =======
-2021-05-28T01:47:26.069984388Z 2021-05-28 01:47:26.069  INFO 124 --- [-nio-80-exec-10] c.a.s.s.controller.TodoListController    : Fri May 28 01:47:26 GMT 2021 POST ======= /api/todolist ======= test
-2021-05-28T01:47:26.649080678Z 2021-05-28 01:47:26.648  INFO 124 --- [p-nio-80-exec-1] c.a.s.s.controller.TodoListController    : Fri May 28 01:47:26 GMT 2021 GET ======= /api/todolist =======
+2021-05-28T01:47:19.683003828Z 2021-05-28 01:47:19.682  INFO 124 --- [p-nio-80-exec-9] c.a.s.s.controller.TodoListController    : GET request access '/api/todolist' path.
+2021-05-28T01:47:26.069984388Z 2021-05-28 01:47:26.069  INFO 124 --- [-nio-80-exec-10] c.a.s.s.controller.TodoListController    : POST request access '/api/todolist' path with item: Milk
+2021-05-28T01:47:26.649080678Z 2021-05-28 01:47:26.648  INFO 124 --- [p-nio-80-exec-1] c.a.s.s.controller.TodoListController    : GET request access '/api/todolist' path.
 ```
 
 When you are finished, you can check your results 
